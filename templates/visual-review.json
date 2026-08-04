@@ -1,32 +1,4 @@
 {
-  "screen": "ScreenName",
-  "state": "default",
-  "iteration": 1,
-  "scores": {
-    "visual_parity": 4,
-    "ux_quality": 4,
-    "anti_ai_slop": "pass"
-  },
-  "fixed": [
-    "Aligned title and body spacing with the reference"
-  ],
-  "remaining": [
-    "Button label weight is slightly heavier than the project norm"
-  ],
-  "regressions": [],
-  "evidence_paths": {
-    "reference_image": "artifacts/reference/screen-default.png",
-    "actual_image": "artifacts/actual/screen-default.png",
-    "diff_image": "artifacts/diff/screen-default-diff.png"
-  },
-  "functional_checks": [
-    {
-      "name": "primary_action_visible",
-      "result": "pass"
-    },
-    {
-      "name": "state_text_present",
-      "result": "pass"
-    }
-  ]
+  "deprecated": true,
+  "replacement": "skills/compose-ui-delivery/templates/visual-review.json"
 }

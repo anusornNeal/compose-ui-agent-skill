@@ -1,0 +1,4 @@
+interface:
+  display_name: "Compose UI Designer"
+  short_description: "Design project-native Compose UI from a brief"
+  default_prompt: "Use $compose-ui-designer to propose and critique a project-native Compose UI direction, get approval, then invoke $compose-ui-delivery."

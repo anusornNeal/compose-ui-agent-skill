@@ -1,0 +1,34 @@
+platform:
+  kind: "mobile"
+  target: "android"
+project:
+  root: "."
+  module: "app"
+  package_name: "com.example.app"
+  variant: "debug"
+device_profiles:
+  primary:
+    name: "pixel_7"
+    serial: "emulator-5554"
+    width_dp: 412
+    height_dp: 915
+    density: 2.625
+launch:
+  mode: "activity"
+  target: "com.example.app/.MainActivity"
+  deeplink: "example://home"
+  task: ":composeApp:wasmJsBrowserDevelopmentRun"
+  url: "http://localhost:8080"
+  window_title: "Compose App"
+  entry_state: "default"
+capture:
+  reference_dir: "artifacts/reference"
+  actual_dir: "artifacts/actual"
+  diff_dir: "artifacts/diff"
+  record_logcat: true
+acceptance:
+  visual_parity_min: 4
+  ux_quality_min: 4
+  max_iterations: 5
+  require_platform_truth: true
+  require_functional_checks: true

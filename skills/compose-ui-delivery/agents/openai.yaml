@@ -1,0 +1,4 @@
+interface:
+  display_name: "Compose UI Delivery"
+  short_description: "Implement and verify Compose UI across platforms"
+  default_prompt: "Use $compose-ui-delivery to discover the Compose project, select mobile, web, or desktop delivery, implement the approved spec, and return rendered evidence."
