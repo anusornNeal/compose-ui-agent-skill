@@ -1,0 +1,34 @@
+{
+  "screen": "ScreenName",
+  "state": "default",
+  "platform": "mobile",
+  "target": "android",
+  "iteration": 1,
+  "scores": {
+    "visual_parity": 4,
+    "ux_quality": 4,
+    "anti_ai_slop": "pass"
+  },
+  "fixed": [
+    "Aligned hierarchy and spacing with the approved specification"
+  ],
+  "remaining": [
+    "One minor platform-specific polish issue remains"
+  ],
+  "regressions": [],
+  "evidence_paths": {
+    "reference_image": "artifacts/reference/screen-default.png",
+    "actual_image": "artifacts/actual/screen-default.png",
+    "diff_image": "artifacts/diff/screen-default-diff.png"
+  },
+  "functional_checks": [
+    {
+      "name": "primary_action_reachable",
+      "result": "pass"
+    },
+    {
+      "name": "responsive_input_behavior",
+      "result": "pass"
+    }
+  ]
+}

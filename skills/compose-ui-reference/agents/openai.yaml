@@ -1,0 +1,4 @@
+interface:
+  display_name: "Compose UI Reference"
+  short_description: "Normalize visual references for Compose delivery"
+  default_prompt: "Use $compose-ui-reference to normalize this Figma or screenshot reference into a screen/state spec, then hand it to $compose-ui-delivery."

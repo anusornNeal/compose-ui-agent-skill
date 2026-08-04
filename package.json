@@ -1,0 +1,9 @@
+{
+  "name": "compose-ui-agent-skill-catalog",
+  "private": true,
+  "scripts": {
+    "test": "python -m unittest discover -s tests -v",
+    "lint": "python skills/compose-ui-delivery/scripts/test_compare_images.py -v",
+    "verify": "npm test && npm run lint && powershell -NoProfile -ExecutionPolicy Bypass -File ./scripts/validate-skill.ps1 -RepoRoot ."
+  }
+}

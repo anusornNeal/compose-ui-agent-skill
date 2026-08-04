@@ -1,4 +1,0 @@
-interface:
-  display_name: "Compose UI Agent"
-  short_description: "Reference-aware Compose UI review and delivery"
-  default_prompt: "Use $compose-ui-agent-skill to discover the project, normalize the screen spec, choose Reference Mode or Designer Mode, and deliver a patch with visual evidence."
